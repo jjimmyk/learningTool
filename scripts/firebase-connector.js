@@ -25,6 +25,9 @@
 firebase.database().ref;
 firebase.database().ref("learningTool");
 
+firebase.database().ref('flashcards');
+
+firebase.database().set(myFlashcards);
 
 
 
