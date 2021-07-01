@@ -20,4 +20,16 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+
+firebase.database().ref;
+firebase.database().ref("learningTool");
+
+
+
+
+
+
+
+
 </script>
