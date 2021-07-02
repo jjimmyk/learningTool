@@ -23,7 +23,7 @@
 
 
 firebase.database().ref;
-firebase.database().ref("learningTool");
+firebase.database().ref("LearningTool");
 
 firebase.database().ref('LearningTool');
 
