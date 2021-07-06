@@ -23,9 +23,10 @@
 
 
 firebase.database().ref;
-firebase.database().ref("LearningTool1");
 
-firebase.database().ref('LearningTool1');
+let cardLocation = firebase.database().ref("LearningTool1");
+
+cardLocation.set(myFlashcards);
 
 firebase.database().ref('LearningTool1').set(myFlashcards);
 
