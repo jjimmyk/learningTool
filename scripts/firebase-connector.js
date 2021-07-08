@@ -22,13 +22,23 @@
   firebase.analytics();
 
 
-firebase.database().ref;
+let dbLocation = firebase.database().ref('LearningTool1');
 
-let cardLocation = firebase.database().ref("LearningTool1");
+dbLocation.set(myFlashcards);
 
-cardLocation.set(myFlashcards);
 
-firebase.database().ref('LearningTool1').set(myFlashcards);
+
+
+
+
+
+//firebase.database().ref;
+
+//let cardLocation = firebase.database().ref("LearningTool1");
+
+//cardLocation.set(myFlashcards);
+
+//firebase.database().ref('LearningTool1').set(myFlashcards);
 
 
 
