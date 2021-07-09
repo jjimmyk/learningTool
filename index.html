@@ -36,6 +36,12 @@
   firebase.analytics();
     </script>
     
+<script>
+let dbLocation = firebase.database().ref('LearningTool1');
+
+dbLocation.set(myFlashcards);
+    </script>
+    
     <h1>Learning Tool</h1>
     
     
