@@ -1,7 +1,7 @@
 
-let dbLocation = firebase.database().ref('LearningTool1');
+//let dbLocation = firebase.database().ref('LearningTool1');
 
-dbLocation.set(myFlashcards);
+//dbLocation.set(myFlashcards);
 
 
 
