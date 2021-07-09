@@ -37,6 +37,20 @@
   firebase.analytics();
 
 let dbLocation = firebase.database().ref('LearningTool');
+    
+let myFlashcards = [ {
+    "question": "Name this species of bird.",
+    "answer": "Barn Owl"
+    },
+    {
+    "question": "Name this species of bird.",
+    "answer": "Dove"
+    },
+    {
+    "question": "Name this species of bird.",
+    "answer": "Hummingbird"
+    }
+  ];
 
 dbLocation.set(myFlashcards);
     </script>
