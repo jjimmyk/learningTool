@@ -34,9 +34,7 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-    </script>
-    
-<script>
+
 let dbLocation = firebase.database().ref('LearningTool');
 
 dbLocation.set(myFlashcards);
@@ -44,8 +42,7 @@ dbLocation.set(myFlashcards);
     
     <h1>Learning Tool</h1>
     
-    
-    <script src="scripts/firebase-connector.js?v=12"></script>
+   
   </body>
   
 </html>
