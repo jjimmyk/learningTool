@@ -58,6 +58,24 @@ let myFlashcards = [ {
 
 dbLocation.set(myFlashcards);
     
+//Declare a variable pointing to the location of LearningTool database in Firebase.
+let fc = firebase.database().ref('LearningTool');
+
+
+//Declare variable in which to store JSON data as a string.
+let jsonString;
+
+fc.on("value", function(retrieve) {
+
+  let queryData = retrieve.val();
+
+  jsonString = JSON.stringify(queryData);
+
+
+});
+
+console.log(' JSON string:' + jsonString);
+    
     
     
     
