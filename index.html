@@ -58,7 +58,12 @@ let myFlashcards = [ {
 
 dbLocation.set(myFlashcards);
     
-    myFlashcards.update({"myFlashcards": firebase.firestore.FieldValue.arrayRemove("question")});
+    
+    
+    
+   
+    //Below I'm trying to update the array to remove the "question" elements from each object. Code is not running and throws "missing )" error.
+    // myFlashcards.update({"myFlashcards": firebase.firestore.FieldValue.arrayRemove("question")});
     </script>
     
     <h1>Learning Tool</h1>
