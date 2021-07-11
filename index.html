@@ -58,7 +58,7 @@ let myFlashcards = [ {
 
 dbLocation.set(myFlashcards);
     
-    firebase.database.remove(myFlashcards);
+    firebase.database().remove(myFlashcards);
     </script>
     
     <h1>Learning Tool</h1>
